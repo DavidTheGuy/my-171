@@ -10,7 +10,6 @@ StudentAI::StudentAI(int col,int row,int p)
     board = Board(col,row,p);
     board.initializeGame();
     player = 2;
-    me = 'B';
 }
 int StudentAI::evaluation(Move mymove){
     int result = 0;
